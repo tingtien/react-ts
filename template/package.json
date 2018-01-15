@@ -1,0 +1,24 @@
+{
+    "name": "{{name}}",
+    "version": "1.0.0",
+    "description": "{{description}}",
+    "main": "index.js",
+    "scripts": {
+        "start": "export NODE_ENV=dev&&nodemon --config node_modules/mitan-react-release/nodemon.json index.js",
+        "build": "export NODE_ENV=dev&&node node_modules/mitan-react-release/index.js"
+    },
+    "author": "{{author}}",
+    "license": "ISC",
+    "dependencies": {
+        "mitan-node": "latest",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-redux": "^5.0.6",
+        "react-router-dom": "^4.2.2",
+        "redux": "^3.7.2",
+        "redux-thunk": "^2.2.0"
+    },
+    "devDependencies": {
+        "mitan-node-release": "latest"
+    }
+}
