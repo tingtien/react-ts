@@ -19,6 +19,6 @@
         "redux-thunk": "^2.2.0"
     },
     "devDependencies": {
-        "mitan-node-release": "latest"
+        "mitan-react-release": "latest"
     }
 }
