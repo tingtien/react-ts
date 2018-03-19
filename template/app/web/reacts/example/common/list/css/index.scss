@@ -1,0 +1,43 @@
+.fm-list {
+    margin-top: 10px;
+    dl {
+        padding: 15px 5%;
+        border-bottom: 1px solid #eee;
+        &:last-child {
+            border-bottom: 0;
+        }
+        dt {
+            font-size: 18px;
+            color: #111;
+            i {
+                width: 25px;
+                color: #3473c9;
+                font-style: normal;
+                display: block;
+                float: left;
+            }
+        }
+        dd {
+            margin-top: 5px;
+            // background: url('../images/more.png') no-repeat right center;
+            background-size: 6px 11px;
+            padding-right: 20px;
+            i {
+                width: 25px;
+                color: #3473c9;
+                font-style: normal;
+                display: block;
+                font-size: 18px;
+                float: left;
+                padding-top: 2px;
+            }
+            &>div {
+                margin-top: 5px;
+                line-height: 24px;
+                height: 48px;
+                color: #999;
+                overflow: hidden;
+            }
+        }
+    }
+}

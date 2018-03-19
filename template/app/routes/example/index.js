@@ -1,6 +1,7 @@
 'use strict';
 
 // Example
-MI.get('/', (req, res) => {
+MI.get(/\/example\/[^\/]+|\//, (req, res) => {
     res.render('layouts/example/index');
 });
+

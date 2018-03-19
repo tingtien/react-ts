@@ -1,7 +1,7 @@
 /**/
 
 html {
-    font-size: 100%;
+    font-size: 87.5%;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -109,4 +109,14 @@ input[type="radio"] {
 
 .clearfix {
     *height: 1%;
+}
+
+.kz-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }

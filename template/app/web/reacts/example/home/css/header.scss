@@ -1,0 +1,44 @@
+.fm-home-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 55px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.fm-home-header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    z-index: 998;
+    padding: 0 4%;
+    .back {
+        float: left;
+        padding-left: 15px;
+        background: url('../images/back.png') no-repeat 0 center;
+        background-size: 10px 17px;
+        font-size: 15px;
+    }
+    .logo {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 20%;
+        font-size: 18px;
+        z-index: -1;
+        text-align: center;
+    }
+    .reminder {
+        float: right;
+        background: url('../images/icon4.png') no-repeat right center;
+        width: 20px;
+        height: 40px;
+        background-size: 20px 20px;
+    }
+}
