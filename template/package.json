@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "description": "{{description}}",
     "main": "index.js",
+    "_mitanType": "nodeReact",
     "scripts": {
-        "start": "export NODE_ENV=dev&&nodemon --config node_modules/mitan-react-release/nodemon.json index.js",
-        "build": "export NODE_ENV=dev&&node node_modules/mitan-react-release/index.js"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "{{author}}",
     "license": "ISC",

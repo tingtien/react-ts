@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../css/Icon.scss';
+import '../css/icon.scss';
 
 const Icon = () => (
     <div className="fm-home-icon">
