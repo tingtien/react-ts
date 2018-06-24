@@ -2,4 +2,4 @@
 
 require('mitan-node/mitanjs');
 
-MI.start(__dirname, 'react');
+MI.start(__dirname);
