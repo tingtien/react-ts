@@ -2,6 +2,8 @@
 
 // Example
 MI.get(/\/example\/[^\/]+|\//, (req, res) => {
-    res.render('layouts/example/index');
+    res.render('example/index', {
+        vendor: MI.config.staticURL + '/static/react-portal',
+        static: MI.config.staticURL + '/static/react-portal/example'
+    });
 });
-
