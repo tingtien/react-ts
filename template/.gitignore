@@ -1,9 +1,6 @@
-/app/public/views/widget
 /node_modules
 /npm-debug.log
-/app/logs
-node_modules/**
-.idea/**
+.idea
 .DS_Store
 **/.DS_Store
 .vscode
