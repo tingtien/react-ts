@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "{{description}}",
     "main": "index.js",
+    "_mitan": true,
     "_mitanType": "nodeReact",
-    "_typeScript": true,
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
