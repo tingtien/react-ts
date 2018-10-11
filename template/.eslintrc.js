@@ -18,10 +18,6 @@ module.exports = {
         "react"
     ],
     "rules": {
-        "linebreak-style": [
-            "warn",
-            "unix"
-        ],
         "semi": ["error", "always"],
         "no-empty": 0,
         "comma-dangle": 0,
