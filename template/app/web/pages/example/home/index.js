@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Account from './redux-containers/Account';
 import Icon from './components/Icon';
-import List from './components/List';
+import List from '@common/example/list/redux-containers/List';
 import Button from './components/Button';
 
 const Home = () => (
