@@ -1,7 +1,12 @@
-import List from './index';
-export default [
+/** 
+ * @Author: 
+ * @Date: 
+ * @Description: 
+ */
+
+module.exports = [
     {
         path: '/example/list',
-        component: List
+        component: './index'
     }
 ];

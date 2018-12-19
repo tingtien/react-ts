@@ -1,7 +1,12 @@
-import Home from './index';
-export default [
+/** 
+ * @Author: 
+ * @Date: 
+ * @Description: 
+ */
+
+module.exports =  [
     {
         path: '/',
-        component: Home
+        component: './index'
     }
 ];
