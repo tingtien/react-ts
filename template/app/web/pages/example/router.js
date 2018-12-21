@@ -47,7 +47,7 @@ class ModalSwitch extends Component {
 }
 
 export default () => (
-    <Router>
+    <Router basename={MI.reactRoute}>
         <Route component={ModalSwitch} />
     </Router>
 );
