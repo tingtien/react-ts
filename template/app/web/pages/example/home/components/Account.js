@@ -9,9 +9,8 @@ import '../css/account.scss';
 class List extends Component {
     constructor(props) {
         super(props);
-        this.clickHandle = this.clickHandle.bind(this);
     }
-    clickHandle(item) {
+    clickHandle = (item) => {
         this.props.history.push('/example/list');
     }
     render() {
