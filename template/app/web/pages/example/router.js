@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import {
     BrowserRouter as Router,
@@ -30,7 +30,7 @@ class ModalSwitch extends Component {
             this.previousLocation !== location // not initial render
         );
         return (
-            <div>
+            <Fragment>
                 <Switch location={isModal ? this.previousLocation : location}>
                     {
                         routes && routes.map((item, index) => {
@@ -41,7 +41,7 @@ class ModalSwitch extends Component {
                     }
                     <Route component={NotFound} />
                 </Switch>
-            </div>
+            </Fragment>
         );
     }
 }
