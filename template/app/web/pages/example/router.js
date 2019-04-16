@@ -33,7 +33,7 @@ class ModalSwitch extends Component {
             <div>
                 <Switch location={isModal ? this.previousLocation : location}>
                     {
-                        routes.map((item, index) => {
+                        routes && routes.map((item, index) => {
                             return (
                                 <Route exact path={item.path} component={item.component} key={index} />
                             );
