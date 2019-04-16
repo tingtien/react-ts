@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-    BrowserRouter as Router,
     withRouter
 } from 'react-router-dom';
 
@@ -11,7 +10,6 @@ import '../css/header.scss';
 class Header extends Component {
     constructor(props) {
         super(props);
-        // this.onPreviousPage = this.onPreviousPage.bind(this);
     }
     render() {
         return (
@@ -27,9 +25,5 @@ class Header extends Component {
         );
     }
 }
-
-// Header.propTypes = {
-//     onPreviousPage: Proptypes.func.isRequired
-// };
 
 export default withRouter(Header);

@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import {
-    BrowserRouter as Router,
-    withRouter
-} from 'react-router-dom';
 
 class NotFound extends Component {
     constructor(props) {
@@ -10,7 +6,7 @@ class NotFound extends Component {
     }
     render() {
         return (
-            <div>1</div>
+            <div>404</div>
         );
     }
 }

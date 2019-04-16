@@ -1,14 +1,13 @@
 import React, { Component, Fragment } from 'react';
 
 import {
-    BrowserRouter as Router,
     Switch,
     Route
 } from 'react-router-dom';
 
 import NotFound from '@common/example/404';
 
-class ModalSwitch extends Component {
+export default class ModalSwitch extends Component {
     constructor(props) {
         super(props);
         this.previousLocation = this.props.location;
@@ -45,9 +44,3 @@ class ModalSwitch extends Component {
         );
     }
 }
-
-export default () => (
-    <Router basename={MI.reactRoute}>
-        <Route component={ModalSwitch} />
-    </Router>
-);

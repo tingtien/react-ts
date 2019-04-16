@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-    BrowserRouter as Router,
     withRouter
 } from 'react-router-dom';
 
@@ -11,9 +10,8 @@ import './index.scss';
 class Header extends Component {
     constructor(props) {
         super(props);
-        this.LinkBack = this.LinkBack.bind(this);
     }
-    LinkBack(item) {
+    LinkBack = (item) => {
         this.props.history.goBack();
     }
     render() {
@@ -30,10 +28,5 @@ class Header extends Component {
         );
     }
 }
-
-// Header.propTypes = {
-//     title: Proptypes.str.isRequired,
-//     LinkBack: Proptypes.func.isRequired,
-// };
 
 export default withRouter(Header);
