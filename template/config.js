@@ -3,6 +3,7 @@ module.exports = {
     domain: "http://localhost:3000",
     staticURL: "//localhost:3000",
     globalJs: {
-        reactRoute: '',
+        reactRoute: "",
+        api: "http://localhost:3000"
     }
 }

@@ -1,9 +1,12 @@
 import 'whatwg-fetch';
 import 'es6-promise';
 
+import api from '../api';
+
 const FETCH_LOADING = 'FETCH_LOADING';
 const FETCH_SUCCESS_ACCOUNT = 'FETCH_SUCCESS_ACCOUNT';
 const FETCH_FAIL = 'FETCH_FAIL';
+
 
 const getData = (url, type) => {
     return (dispatch) => {
@@ -20,5 +23,5 @@ const getData = (url, type) => {
 };
 
 export const getAccountAction = () => {
-    return getData('https://easy-mock.com/mock/5a6fc638b2410e30c3732e46/test/account', FETCH_SUCCESS_ACCOUNT);
+    return getData(api.account, FETCH_SUCCESS_ACCOUNT);
 };
