@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {
     withRouter
 } from 'react-router-dom';
-import PropTypes from 'prop-types';
 
 import '../css/account.scss';
 
@@ -38,4 +37,4 @@ class List extends Component {
     }
 }
 
-export default withRouter(List);
+export default (List);
