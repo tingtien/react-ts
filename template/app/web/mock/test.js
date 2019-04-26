@@ -25,13 +25,13 @@ module.exports = {
     ],
 
     // GET 可省略
-    '/api/account': {
+    '/api/mock/account': {
         "number": 5,
         "total": 9999
     },
 
     // mock高级用法
-    'GET /api/tags': mockjs.mock({
+    'GET /api/mock/tags': mockjs.mock({
         'list|100': [{
             name: '@city',
             'value|1-100': 50,
