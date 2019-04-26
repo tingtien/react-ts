@@ -1,5 +1,4 @@
-import 'whatwg-fetch';
-import 'es6-promise';
+import axios from 'axios';
 
 import api from '../api';
 
@@ -8,15 +7,11 @@ const FETCH_SUCCESS_LIST = 'FETCH_SUCCESS_LIST';
 
 const getData = (url, type) => {
     return (dispatch) => {
-        // dispatch({ type: FETCH_LOADING });
-        return fetch(url)
-            .then(rs => {
-                return rs.json();
-            }).then(rs => {
-                dispatch({ type: type, data: rs });
-            }).catch((rs) => {
-                dispatch({ type: FETCH_FAIL });
-            });
+        return axios.get(url).then(rs => {
+            dispatch({ type: type, data: rs.data });
+        }).catch(error => {
+            console.error(error);
+        });
     };
 };
 

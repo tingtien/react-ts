@@ -2,15 +2,24 @@ import React, { Component } from 'react';
 import {
     withRouter
 } from 'react-router-dom';
+import axios from 'axios';
 
 import '../css/account.scss';
 
-class List extends Component {
+import api from '../api';
+
+class Account extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            account: {
+                number: null,
+                total: null
+            }
+        };
     }
     componentDidMount() {
-        axios.get(api.account).then(rs => {
+        axios.get(api.account.url).then(rs => {
             if (rs && rs.data){
                 this.setState({
                     account: rs.data
@@ -37,4 +46,4 @@ class List extends Component {
     }
 }
 
-export default (List);
+export default withRouter(Account);

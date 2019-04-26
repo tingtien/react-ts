@@ -1,3 +1,5 @@
 export default {
-    account: `${MI.api}/api/account`
+    account: {
+        url: `${MI.api}/api/mock/account`
+    }
 };
