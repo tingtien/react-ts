@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  'GET /': 'index'
+  'GET /^\/example\/[^\/]+|\/$/ R': 'index'
 }
