@@ -4,9 +4,7 @@
  * @Description: 
  */
 
-module.exports =  [
-    {
-        path: '/',
-        component: './index'
-    }
-];
+module.exports = {
+  path: '/',
+  component: './index'
+};
