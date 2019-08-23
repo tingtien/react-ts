@@ -25,7 +25,7 @@ const store = createStore(
 );
 render(
     <Provider store={store}>
-        <Router basename={MI.reactRoute}>
+        <Router basename={MI.config.reactRoute}>
             <Route component={ModalSwitch} />
         </Router>
     </Provider>,

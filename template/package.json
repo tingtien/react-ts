@@ -11,9 +11,9 @@
     "creator": "{{author}}",
     "license": "ISC",
     "dependencies": {
-        "mitan-node": "latest"
+        "mitan-node": "^2.0.3"
     },
     "devDependencies": {
-        "mitan-react-release": "latest"
+        "mitan-react-release": "^3.0.3"
     }
 }

@@ -1,3 +1,3 @@
 export default {
-    list: `${MI.api}/api/list`
+    list: `${MI.config.api}/api/list`
 };
