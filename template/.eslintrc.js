@@ -22,7 +22,8 @@ module.exports = {
         "camelcase": 0
     },
     globals: {
-        MI: "readonly"
+        MI: "readonly",
+        routes: "readonly"
     },
     settings: {
         "react": {
