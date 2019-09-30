@@ -1,10 +1,10 @@
-/** 
- * @Author: 
- * @Date: 
- * @Description: 
+/**
+ * @Author:
+ * @Date:
+ * @Description:
  */
 
 module.exports = {
-  path: '/',
-  component: './index'
+  path: "/",
+  component: "./index"
 };

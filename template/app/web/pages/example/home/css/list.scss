@@ -1,12 +1,12 @@
 .home-more {
     padding: 20px 0;
-    text-align: center;
     color: #999;
+    text-align: center;
     & div {
         display: block;
     }
     & span {
-        font-family: Simsun, sans-serif;
         margin-left: 5px;
+        font-family: Simsun, sans-serif;
     }
 }

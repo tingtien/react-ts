@@ -19,7 +19,8 @@ module.exports = {
         "react/display-name": 0,
         "eqeqeq": 0,
         // "no-undef": 0,
-        "camelcase": 0
+        "camelcase": 0,
+        "no-unused-expressions": 0
     },
     globals: {
         MI: "readonly",
