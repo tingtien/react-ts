@@ -10,7 +10,7 @@ export default class ModalSwitch extends Component {
     this.previousLocation = this.props.location;
   }
 
-  componentWillUpdate(nextProps) {
+  componentDidUpdate(nextProps) {
     const { location } = this.props;
     if (
       nextProps.history.action !== "POP" &&
