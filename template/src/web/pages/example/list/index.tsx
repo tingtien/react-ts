@@ -1,12 +1,12 @@
 import React from "react";
 
-import Header from "@common/example/header/index";
+import Header from "@common/example/header";
 
 import List from "@common/example/list/redux-containers/List";
 
 const ListPages = () => (
   <div className="fm-content">
-    <Header title="富鑫宝规则" />
+    <Header title="XXX规则" />
     <List />
   </div>
 );
