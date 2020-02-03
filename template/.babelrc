@@ -1,5 +1,11 @@
 {
-    "plugins": [
-
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "fm-mobile",
+        "style": "css"
+      }
     ]
+  ]
 }

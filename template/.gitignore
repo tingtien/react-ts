@@ -7,3 +7,5 @@
 .local
 .idea
 package-lock.json
+/app
+/dist

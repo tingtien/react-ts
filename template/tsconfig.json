@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react-native",
+        "removeComments": true,
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "declaration": false
+    }
+}

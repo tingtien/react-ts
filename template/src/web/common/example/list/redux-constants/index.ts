@@ -1,0 +1,4 @@
+export const FETCH_SUCCESS_LIST = "FETCH_SUCCESS_LIST";
+type FETCH_SUCCESS_LIST_TYPE = typeof FETCH_SUCCESS_LIST;
+
+export type ConstantTypes = FETCH_SUCCESS_LIST_TYPE;

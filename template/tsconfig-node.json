@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "allowSyntheticDefaultImports": true,
+        "removeComments": true,
+        "skipLibCheck": true,
+        "declaration": false
+    }
+}

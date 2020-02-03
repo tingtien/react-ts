@@ -5,5 +5,6 @@ module.exports = {
     globalJs: {
         reactRoute: "",
         api: "http://localhost:3000"
-    }
+    },
+    webpackFilterDll: ["fm-mobile"], // 组件按需加载
 }

@@ -1,5 +1,10 @@
 module.exports = {
-    parser: "babel-eslint",
+    env: {
+        browser: true,
+        es6: true,
+        node: true
+    },
+    parser: "@typescript-eslint/parser",
     parserOptions: {
         ecmaFeatures: {
             experimentalObjectRestSpread: true,
@@ -8,11 +13,13 @@ module.exports = {
         sourceType: "module"
     },
     extends: [
-        "standard",
-        "plugin:prettier/recommended",
-        "plugin:react/recommended"
+        'plugin:@typescript-eslint/recommended',
+        'plugin:react/recommended',
+        'prettier/@typescript-eslint',
+        'plugin:prettier/recommended',
+        'prettier/react'
     ],
-    plugins: ["react", "prettier"],
+    plugins: ['@typescript-eslint', 'react', 'prettier'],
     rules: {
         "prettier/prettier": 2,
         "react/prop-types": 0,
@@ -20,7 +27,20 @@ module.exports = {
         "eqeqeq": 0,
         // "no-undef": 0,
         "camelcase": 0,
-        "no-unused-expressions": 0
+        "no-unused-expressions": 0,
+        "no-new": 0,
+        // typescript
+        "@typescript-eslint/no-explicit-any": 0,
+        "@typescript-eslint/ban-ts-ignore": 0,
+        "@typescript-eslint/triple-slash-reference": 0,
+        '@typescript-eslint/explicit-function-return-type': [
+            // 'warn',
+            'off',
+            {
+                allowExpressions: true,
+                allowTypedFunctionExpressions: true,
+            }
+        ]
     },
     globals: {
         MI: "readonly",
@@ -28,6 +48,7 @@ module.exports = {
     },
     settings: {
         "react": {
+            "pragma": "React",
             "version": "detect", // React version. "detect" automatically picks the version you 
         }
     }

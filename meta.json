@@ -9,7 +9,7 @@
             "type": "input",
             "required": true,
             "message": "Project description",
-            "default": "A nodejs react project"
+            "default": "A react typescript project"
         },
         "author": {
             "type": "input",
