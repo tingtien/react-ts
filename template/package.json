@@ -12,10 +12,10 @@
     "creator": "UED",
     "license": "ISC",
     "dependencies": {
-        "mitan-node": "^3.0.0"
+        "mitan-node": "3.2.6"
     },
     "devDependencies": {
-        "mitan-react-release": "3.2.5",
+        "mitan-react-release": "3.2.6",
         "mitan-ts": "0.0.2"
     },
     "husky": {
