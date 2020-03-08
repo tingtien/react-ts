@@ -1,7 +1,7 @@
 {
-    "name": "react-ts",
+    "name": "{{name}}",
     "version": "0.0.1",
-    "description": "A react project",
+    "description": "{{description}}",
     "main": "index.js",
     "_mitan": true,
     "_typeScript": true,
@@ -9,7 +9,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "creator": "UED",
+    "creator": "{{author}}",
     "license": "ISC",
     "dependencies": {
         "mitan-node": "3.2.6"
