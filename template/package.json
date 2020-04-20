@@ -12,10 +12,10 @@
     "creator": "{{author}}",
     "license": "ISC",
     "dependencies": {
-        "mitan-node": "3.2.6"
+        "mitan-node": "3.2.9"
     },
     "devDependencies": {
-        "mitan-react-release": "3.2.6",
+        "mitan-react-release": "3.3.10-beta.21",
         "mitan-ts": "0.0.2"
     },
     "husky": {
