@@ -1,32 +1,32 @@
 {
-    "name": "{{name}}",
-    "version": "0.0.1",
-    "description": "{{description}}",
-    "main": "index.js",
-    "_mitan": true,
-    "_typeScript": true,
-    "_mitanType": "react",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "creator": "{{author}}",
-    "license": "ISC",
-    "dependencies": {
-        "mitan-node": "3.5.5"
-    },
-    "devDependencies": {
-        "mitan-react-release": "3.7.6",
-        "mitan-ts": "0.0.2"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "*.js": [
-            "fm start --fix",
-            "git add"
-        ]
+  "name": "{{name}}",
+  "version": "0.0.1",
+  "description": "{{description}}",
+  "main": "index.js",
+  "_mitan": true,
+  "_typeScript": true,
+  "_mitanType": "react",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "creator": "{{author}}",
+  "license": "ISC",
+  "dependencies": {
+    "mitan-node": "3.5.5"
+  },
+  "devDependencies": {
+    "mitan-react-release": "3.7.6",
+    "mitan-ts": "0.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "fm start --fix",
+      "git add"
+    ]
+  }
 }
