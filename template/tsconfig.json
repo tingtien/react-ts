@@ -1,14 +1,19 @@
 {
-    "compilerOptions": {
-        "target": "esnext",
-        "noImplicitAny": false,
-        "moduleResolution": "node",
-        "sourceMap": false,
-        "allowSyntheticDefaultImports": true,
-        "jsx": "react-native",
-        "removeComments": true,
-        "skipLibCheck": true,
-        "experimentalDecorators": true,
-        "declaration": false
+  "compilerOptions": {
+    "target": "esnext",
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "declaration": false,
+    "baseUrl": "./",
+    "paths": {
+      "@common/*": ["src/web/common/*"],
+      "@pages/*": ["src/web/pages/*"]
     }
+  }
 }
